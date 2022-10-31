@@ -13,6 +13,8 @@
 		A248E91E291008730028249C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A248E91D291008730028249C /* Assets.xcassets */; };
 		A248E921291008730028249C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A248E91F291008730028249C /* LaunchScreen.storyboard */; };
 		A248E929291008F70028249C /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E928291008F70028249C /* AlertListViewController.swift */; };
+		A248E92C29100C9F0028249C /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E92A29100C9F0028249C /* AlertListCell.swift */; };
+		A248E92D29100C9F0028249C /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A248E92B29100C9F0028249C /* AlertListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A248E920291008730028249C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A248E922291008730028249C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A248E928291008F70028249C /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		A248E92A29100C9F0028249C /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		A248E92B29100C9F0028249C /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,6 @@
 		A248E908291008720028249C = {
 			isa = PBXGroup;
 			children = (
-				A248E928291008F70028249C /* AlertListViewController.swift */,
 				A248E913291008720028249C /* DrinkWater */,
 				A248E912291008720028249C /* Products */,
 			);
@@ -59,10 +62,13 @@
 			children = (
 				A248E914291008720028249C /* AppDelegate.swift */,
 				A248E916291008720028249C /* SceneDelegate.swift */,
+				A248E928291008F70028249C /* AlertListViewController.swift */,
 				A248E91A291008720028249C /* Main.storyboard */,
 				A248E91D291008730028249C /* Assets.xcassets */,
 				A248E91F291008730028249C /* LaunchScreen.storyboard */,
 				A248E922291008730028249C /* Info.plist */,
+				A248E92A29100C9F0028249C /* AlertListCell.swift */,
+				A248E92B29100C9F0028249C /* AlertListCell.xib */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				A248E921291008730028249C /* LaunchScreen.storyboard in Resources */,
 				A248E91E291008730028249C /* Assets.xcassets in Resources */,
+				A248E92D29100C9F0028249C /* AlertListCell.xib in Resources */,
 				A248E91C291008720028249C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				A248E915291008720028249C /* AppDelegate.swift in Sources */,
 				A248E917291008720028249C /* SceneDelegate.swift in Sources */,
+				A248E92C29100C9F0028249C /* AlertListCell.swift in Sources */,
 				A248E929291008F70028249C /* AlertListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
