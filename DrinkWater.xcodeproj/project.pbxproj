@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		A248E915291008720028249C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E914291008720028249C /* AppDelegate.swift */; };
 		A248E917291008720028249C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E916291008720028249C /* SceneDelegate.swift */; };
-		A248E919291008720028249C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E918291008720028249C /* ViewController.swift */; };
 		A248E91C291008720028249C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A248E91A291008720028249C /* Main.storyboard */; };
 		A248E91E291008730028249C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A248E91D291008730028249C /* Assets.xcassets */; };
 		A248E921291008730028249C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A248E91F291008730028249C /* LaunchScreen.storyboard */; };
+		A248E929291008F70028249C /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E928291008F70028249C /* AlertListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A248E911291008720028249C /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A248E914291008720028249C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A248E916291008720028249C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A248E918291008720028249C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A248E91B291008720028249C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A248E91D291008730028249C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A248E920291008730028249C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A248E922291008730028249C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A248E928291008F70028249C /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		A248E908291008720028249C = {
 			isa = PBXGroup;
 			children = (
+				A248E928291008F70028249C /* AlertListViewController.swift */,
 				A248E913291008720028249C /* DrinkWater */,
 				A248E912291008720028249C /* Products */,
 			);
@@ -58,7 +59,6 @@
 			children = (
 				A248E914291008720028249C /* AppDelegate.swift */,
 				A248E916291008720028249C /* SceneDelegate.swift */,
-				A248E918291008720028249C /* ViewController.swift */,
 				A248E91A291008720028249C /* Main.storyboard */,
 				A248E91D291008730028249C /* Assets.xcassets */,
 				A248E91F291008730028249C /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A248E919291008720028249C /* ViewController.swift in Sources */,
 				A248E915291008720028249C /* AppDelegate.swift in Sources */,
 				A248E917291008720028249C /* SceneDelegate.swift in Sources */,
+				A248E929291008F70028249C /* AlertListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
