@@ -8,7 +8,10 @@
 import UIKit
 
 class AlertListCell: UITableViewCell {
-
+    @IBOutlet weak var meridiemLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var alertSwitch: UISwitch!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +23,6 @@ class AlertListCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    @IBAction func AlertSwitchValueChanged(_ sender: UISwitch) {
+    }
 }
