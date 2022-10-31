@@ -15,6 +15,7 @@
 		A248E929291008F70028249C /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E928291008F70028249C /* AlertListViewController.swift */; };
 		A248E92C29100C9F0028249C /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E92A29100C9F0028249C /* AlertListCell.swift */; };
 		A248E92D29100C9F0028249C /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A248E92B29100C9F0028249C /* AlertListCell.xib */; };
+		A248E92F29100FB60028249C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248E92E29100FB60028249C /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A248E928291008F70028249C /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
 		A248E92A29100C9F0028249C /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
 		A248E92B29100C9F0028249C /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		A248E92E29100FB60028249C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A248E922291008730028249C /* Info.plist */,
 				A248E92A29100C9F0028249C /* AlertListCell.swift */,
 				A248E92B29100C9F0028249C /* AlertListCell.xib */,
+				A248E92E29100FB60028249C /* Alert.swift */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				A248E915291008720028249C /* AppDelegate.swift in Sources */,
 				A248E917291008720028249C /* SceneDelegate.swift in Sources */,
 				A248E92C29100C9F0028249C /* AlertListCell.swift in Sources */,
+				A248E92F29100FB60028249C /* Alert.swift in Sources */,
 				A248E929291008F70028249C /* AlertListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQYLWZMATG;
+				DEVELOPMENT_TEAM = YM9MTQS82Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrinkWater/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -308,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dringWater.DrinkWater;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dringWater.DrinkWater.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GQYLWZMATG;
+				DEVELOPMENT_TEAM = YM9MTQS82Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrinkWater/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -336,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dringWater.DrinkWater;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dringWater.DrinkWater.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
